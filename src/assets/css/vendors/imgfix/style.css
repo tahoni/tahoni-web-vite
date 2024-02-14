@@ -1,0 +1,187 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #333;
+  background: #f3f3f3;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 16px;
+  color: #666;
+}
+
+h6 {
+  font-size: 16px;
+  font-style: italic;
+  color: #666;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 960px;
+  margin: 24px auto;
+  padding: 6px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bar {
+  width: 960px;
+  margin: auto;
+  background: white;
+  height: 2px;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+  clear: both;
+}
+
+pre {
+  border-radius: 6px;
+  border: 1px solid #999;
+  padding: 12px;
+  background: white;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.bordered {
+  border: 6px solid white;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+  padding: 0px !important;
+}
+
+#element_1,
+#element_2 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 240px;
+}
+
+ul.on-hover,
+ul.cover-fade-in,
+ul.cover-slide-in,
+ul.cover-scale-out,
+ul.cover-slide-dynamic {
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 3px;
+  margin: 0px;
+}
+
+ul.on-hover li,
+ul.cover-fade-in li,
+ul.cover-slide-in li,
+ul.cover-scale-out li,
+ul.cover-slide-dynamic li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 310px;
+  height: 200px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  float: left;
+}
+
+ul.on-hover li:nth-child(3n+1),
+ul.cover-fade-in li:nth-child(3n+1),
+ul.cover-slide-in li:nth-child(3n+1),
+ul.cover-scale-out li:nth-child(3n+1),
+ul.cover-slide-dynamic li:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+ul.on-hover li .cover,
+ul.cover-fade-in li .cover,
+ul.cover-slide-in li .cover,
+ul.cover-scale-out li .cover,
+ul.cover-slide-dynamic li .cover {
+  background: rgba(248, 123, 70, 0.6);
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+ul.on-hover li .cover .crc,
+ul.cover-fade-in li .cover .crc,
+ul.cover-slide-in li .cover .crc,
+ul.cover-scale-out li .cover .crc,
+ul.cover-slide-dynamic li .cover .crc {
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+}
+
+ul.on-hover li .cover .crc .hor,
+ul.cover-fade-in li .cover .crc .hor,
+ul.cover-slide-in li .cover .crc .hor,
+ul.cover-scale-out li .cover .crc .hor,
+ul.cover-slide-dynamic li .cover .crc .hor {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 75%;
+  height: 2px;
+  background: #ddd;
+}
+
+ul.on-hover li .cover .crc .ver,
+ul.cover-fade-in li .cover .crc .ver,
+ul.cover-slide-in li .cover .crc .ver,
+ul.cover-scale-out li .cover .crc .ver,
+ul.cover-slide-dynamic li .cover .crc .ver {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  height: 75%;
+  background: #ddd;
+}
+
+.wtf {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 234px;
+  height: 180px;
+  float: left;
+  margin: 3px;
+}

@@ -42,7 +42,6 @@ export default {
 - [Technology](#technology)
 - [License](#license)
 - [Future Updates](#future-updates)
-- [FAQs](#faqs)
 - [Attributions](#attributions) 
 - [Bibliography](#bibliography)
 - [More Resources](#more-resources)
@@ -85,9 +84,6 @@ This project is licensed under the terms of the _MIT license_.
 
 ## Future Updates
 A task list of planned features, improvements and bug fixes.
-
-## FAQs
-A list of frequently asked questions.
 
 ## Attributions
 Photos used in the slider by:

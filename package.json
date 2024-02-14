@@ -11,9 +11,17 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "counterup2": "^2.0.2",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.1",
+    "lightbox2": "^2.11.4",
+    "rc-slider": "^10.5.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-owl-carousel": "^2.3.3",
+    "scrollreveal": "^4.0.9",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
