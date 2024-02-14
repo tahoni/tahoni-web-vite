@@ -1,0 +1,23 @@
+@forward './styles-colors.scss';
+@forward './styles-fonts.scss';
+
+/* Font Families */
+$body-font-family: $noto-sans-family;
+$header-font-family: $noto-sans-display-family;
+$code-font-family: $noto-code-family;
+
+/* Fonts */
+$body-font: $noto-sans;
+$header-font: $noto-sans-display;
+
+/* Colours */
+$background-color: $non-photo-blue-2;
+$main-background-color: $light-cyan;
+$cover-background-color: $marian-blue;
+$text-color: $federal-blue;
+$cover-text-color: $marian-blue;
+$logo-color: $marian-blue;
+
+/* Gradients */
+$background-gradient: $gradient-dark-light-90;
+$cover-gradient: $gradient-dark-light-90;

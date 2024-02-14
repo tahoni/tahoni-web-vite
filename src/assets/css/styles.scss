@@ -1,0 +1,15 @@
+@import './styles-colors.scss';
+@import './styles-fonts.scss';
+@import './styles-theme.scss';
+
+/* Standard elements */
+html, body {
+    font-family: $body-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
