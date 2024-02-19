@@ -8,7 +8,9 @@ interface LoaderProps {
 export const Loader = (props: LoaderProps): React.ReactElement => {
 
     return (
-        <PuffLoader loading={props.isLoading} color={classes.loaderColor} 
-        className={classes.loader}/>
+        <>
+            <PuffLoader loading={props.isLoading} color={classes.loaderColor}
+            className={classes.loader}/>
+        </>
     );
 }

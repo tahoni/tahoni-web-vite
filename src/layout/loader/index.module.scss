@@ -1,6 +1,6 @@
 @import '../../assets/css/styles-colors.scss';
-
-$loader-color: $light-cyan;
+@import '../../assets/css/styles-fonts.scss';
+@import '../../assets/css/styles-theme.scss';
 
 .loader {
     position: absolute !important;

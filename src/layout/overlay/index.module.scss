@@ -1,0 +1,14 @@
+@import '../../assets/css/styles-colors.scss';
+@import '../../assets/css/styles-fonts.scss';
+@import '../../assets/css/styles-theme.scss';
+
+.maskOverlay {
+    background-color: $overlay-color;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 88888;
+}
