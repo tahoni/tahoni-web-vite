@@ -12,11 +12,12 @@
 
 .main {
     background-color: $cover-background-color;
-    flex: 1;
     width: 96%;
     height: 96%;
     margin: auto !important;
     padding: 0;
+    display: flex;
+    flex: 1;
 }
 
 .cover {

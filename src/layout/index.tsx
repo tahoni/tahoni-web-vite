@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import slide01 from '../assets/images/slide-01.png';
 import classes from './index.module.scss';
 
