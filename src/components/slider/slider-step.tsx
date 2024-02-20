@@ -1,20 +1,15 @@
 import { Image } from "react-bootstrap";
+import { ISliderProperty } from "../../content/config/slider-property";
+import { images } from "../../utils/images";
 import classes from "./index.module.scss";
 
-interface SliderStepProps {
-    image: string;
-    text: string;
-    alt?: string;
-}
-
-export const SliderStep = (props: SliderStepProps) => {
+export const SliderStep = (props: ISliderProperty) => {
 
     return (
         <>
             <div className={classes.cover}>
                 <div className={classes.coverContent}>
-                    <Image src={props.image} alt={props.alt ? props.alt : ''} 
-                    className={classes.coverImage}/>
+                    <Image src={images[props.image]} alt={props.alt} className={classes.coverImage}/>
                     <span className={classes.coverText}>{props.text}</span>
                 </div>
             </div>
