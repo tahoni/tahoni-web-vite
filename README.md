@@ -17,8 +17,7 @@ This project stores the source code for my website at https://www.tahoni.info.
 
 ## Summary
 This project stores the source code for my website at https://www.tahoni.info.\
-It is a React project that was bootstrapped using Vite 
-with the TypeScript React template.
+It is a React project bootstrapped using Vite with the TypeScript React template.
 It is written in TypeScript and uses Bootstrap and React Bootstrap
 as the UI framework.
 
