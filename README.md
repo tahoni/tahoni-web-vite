@@ -34,13 +34,20 @@ The project can be found at [https://tahoni.info](https://www.tahoni.info).
 ## Structure
 A high-level structure of the project.
 ```text
+├───documentation
+│   ├───manual
+│   └───screenshots
 ├───public
 └───src
-    └───assets
-        ├───images
-        │   ├───icons
-        │   └───logos
-        └───stylesheets
+    ├───assets
+    │   ├───images
+    │   │   └───logos
+    │   └───stylesheets
+    ├───components
+    │   └───common
+    ├───layout
+    ├───model
+    └───pages
 ```
 
 ## Technology
@@ -84,10 +91,24 @@ A list of the technology used to develop and/or run the project.
   [![React Bootstrap Badge](https://img.shields.io/badge/React_Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://react-bootstrap.github.io/)
 
 ## Instructions
-Instructions on how to build, run and/or publish the project.
+In the project directory, you can run:
+
+#### `npm run dev`
+Runs the app in the development mode.\
+The page will reload if you make edits.
+
+#### `npm run build`
+Builds the app for production to the `dist` folder.\
+Your app is ready to be deployed!
+
+#### `npm run preview`
+Previews the app in the `dist` folder locally.\
+It's an easy way to check if the production build looks OK in your local environment.
 
 ## Screenshots
-Screenshots, including the home page, if any, that are relevant to this project.
+_Home:_
+
+![Home page](documentation/screenshots/home.png)
 
 ## License
 This project is licensed under the terms of the _MIT license_.

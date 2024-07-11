@@ -293,6 +293,7 @@ hs_err_pid*
 
 ## CUSTOM
 **/.npmrc
+.env.local
 run/
 build/
 target/
