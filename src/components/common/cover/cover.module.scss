@@ -1,0 +1,52 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "../../../assets/stylesheets/styles";
+
+.cover {
+  position: relative;
+  height: 100%;
+}
+
+.cover h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.coverImage {
+  max-height: 100%;
+  border: 1px solid transparent;
+  border-image: $cover-gradient 1 fill;
+  opacity: 0.5;
+}
+
+.coverOverlay {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  border: 1px solid transparent;
+  border-image: $cover-gradient 1 fill;
+}
+
+.coverText {
+  font-family: $heading-font-family;
+  color: $cover-text-color;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@include media-breakpoint-up(sm) {
+  .cover h1 {
+    font-size: 3rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .cover h1 {
+    font-size: 4rem;
+  }
+}
