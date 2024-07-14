@@ -1,21 +1,39 @@
 :root {
+  /* Font Families */
+  --text-font-family: var(--noto-sans-font-family);
+  --heading-text-font-family: var(--noto-sans-display-font-family);
+  --code-text-font-family: var(--noto-code-font-family);
+
+  /* Fonts */
+  --text-font: var(--noto-sans-font);
+  --heading-text-font: var(--noto-sans-display-font);
+
   /* Colours */
+  --background-color: aliceblue;
   --loader-color: var(--federal-blue);
   --logo-color: var(--marian-blue);
-  --background-color: aliceblue;
-  --border-color: var(--federal-blue);
-  --heading-text-color: var(--federal-blue);
   --text-color: var(--marian-blue);
+  --heading-text-color: var(--federal-blue);
   --cover-text-color: aliceblue;
 
   /* Gradients */
   --overlay-gradient: var(--gradient-radial);
   --cover-gradient: var(--gradient-bottom-left);
+}
 
-  /* TahoniLib */
+/* TahoniLib */
+:root {
   --tl-loader-color: var(--loader-color);
-  --tl-overlay-gradient: var(--overlay-gradient);
-  --tl-heading-text-color: var(--heading-text-color);
-  --tl-cover-text-color: var(--cover-text-color);
   --tl-cover-gradient: var(--cover-gradient);
+  --tl-overlay-gradient: var(--overlay-gradient);
+  --tl-cover-carousel-nav-font-family: var(--heading-text-font-family);
+  --tl-cover-carousel-nav-color: var(--heading-text-color);
+  --tl-cover-text-color: var(--cover-text-color);
+}
+
+/* Bootstrap */
+:root, [data-bs-theme=light] {
+  --bs-font-sans-serif: var(--text-font-family);
+  --bs-font-monospace: var(--code-text-font-family);
+  --bs-body-bg: var(--background-color);
 }
