@@ -1,0 +1,21 @@
+:root {
+  /* Colours */
+  --loader-color: var(--federal-blue);
+  --logo-color: var(--marian-blue);
+  --background-color: aliceblue;
+  --border-color: var(--federal-blue);
+  --heading-text-color: var(--federal-blue);
+  --text-color: var(--marian-blue);
+  --cover-text-color: aliceblue;
+
+  /* Gradients */
+  --overlay-gradient: var(--gradient-radial);
+  --cover-gradient: var(--gradient-bottom-left);
+
+  /* TahoniLib */
+  --tl-loader-color: var(--loader-color);
+  --tl-overlay-gradient: var(--overlay-gradient);
+  --tl-heading-text-color: var(--heading-text-color);
+  --tl-cover-text-color: var(--cover-text-color);
+  --tl-cover-gradient: var(--cover-gradient);
+}

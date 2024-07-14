@@ -1,7 +1,7 @@
 import {ReactElement} from "react";
-import {ImageSourceDescription} from "../../model/ImageSourceDescription.ts";
+import {ImageSourceDescription} from "@tahoni/tahoni-lib-react";
+import {CoverCarousel} from "@tahoni/tahoni-lib-react";
 import {HomeImages} from "./home-images.ts";
-import {CoverCarousel} from "../common/cover-carousel/cover-carousel.tsx";
 
 export const HomeCarousel = (): ReactElement => {
     const homeText: string = 'My Coding Journey';

@@ -1,10 +1,10 @@
 import {ReactElement} from 'react'
 import {Route, Routes} from "react-router";
-import {Breakpoints} from "./layout/breakpoints/breakpoints.tsx";
-import {MaskOverlay} from "./components/common/overlay/overlay.tsx";
-import {Loader} from "./components/common/loader/loader.tsx";
-import {Layout} from "./layout/layout.tsx";
-import {HomePage} from "./pages/home-page.tsx";
+import {MaskOverlay} from "@tahoni/tahoni-lib-react/dist";
+import {Loader} from "@tahoni/tahoni-lib-react/dist";
+import {Breakpoints} from "./layout/Breakpoints";
+import {Layout} from "./layout";
+import {HomePage} from "./pages/home";
 import './App.scss'
 
 function App(): ReactElement {

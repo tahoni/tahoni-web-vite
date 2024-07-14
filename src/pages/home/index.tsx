@@ -1,5 +1,5 @@
 import {ReactElement} from "react";
-import {HomeCarousel} from "../components/home-carousel/home-carousel.tsx";
+import {HomeCarousel} from "../../components/home-carousel";
 
 export const HomePage = (): ReactElement => {
     return (

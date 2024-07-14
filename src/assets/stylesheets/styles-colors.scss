@@ -1,38 +1,25 @@
 /* Blue Gradient - https://coolors.co/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8 */
 
-/* SCSS HEX */
-$federal-blue: #03045eff;
-$marian-blue: #023e8aff;
-$honolulu-blue: #0077b6ff;
-$blue-green: #0096c7ff;
-$pacific-cyan: #00b4d8ff;
-$vivid-sky-blue: #48cae4ff;
-$non-photo-blue: #90e0efff;
-$non-photo-blue-2: #ade8f4ff;
-$light-cyan: #caf0f8ff;
+:root {
+  /* CSS HEX */
+  --federal-blue: #03045eff;
+  --marian-blue: #023e8aff;
+  --honolulu-blue: #0077b6ff;
+  --blue-green: #0096c7ff;
+  --pacific-cyan: #00b4d8ff;
+  --vivid-sky-blue: #48cae4ff;
+  --non-photo-blue: #90e0efff;
+  --non-photo-blue-2: #ade8f4ff;
+  --light-cyan: #caf0f8ff;
 
-/* SCSS Gradient Linear */
-$gradient-top: linear-gradient(0deg, $federal-blue, $marian-blue, $honolulu-blue,
-    $blue-green, $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-$gradient-right: linear-gradient(90deg, $federal-blue, $marian-blue, $honolulu-blue,
-    $blue-green, $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-$gradient-bottom: linear-gradient(180deg, $federal-blue, $marian-blue, $honolulu-blue,
-    $blue-green, $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-$gradient-left: linear-gradient(270deg, $federal-blue, $marian-blue, $honolulu-blue,
-    $blue-green, $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-$gradient-top-right: linear-gradient(45deg, $federal-blue, $marian-blue, $honolulu-blue,
-    $blue-green, $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-$gradient-bottom-right: linear-gradient(135deg, $federal-blue, $marian-blue, $honolulu-blue,
-    $blue-green, $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-$gradient-top-left: linear-gradient(225deg, $federal-blue, $marian-blue, $honolulu-blue,
-    $blue-green, $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-$gradient-bottom-left: linear-gradient(315deg, $federal-blue, $marian-blue, $honolulu-blue,
-    $blue-green, $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-$gradient-radial: radial-gradient($federal-blue, $marian-blue, $honolulu-blue, $blue-green,
-    $pacific-cyan, $vivid-sky-blue, $non-photo-blue, $non-photo-blue-2, $light-cyan);
-
-/* SCSS Gradient Non-Linear */
-$gradient-dark-light-45: linear-gradient(45deg, $marian-blue 0%, $non-photo-blue-2 100%);
-$gradient-dark-light-90: linear-gradient(90deg, $marian-blue 0%, $non-photo-blue-2 100%);
-$gradient-light-dark-45: linear-gradient(45deg, $non-photo-blue-2 0%, $marian-blue 100%);
-$gradient-light-dark-90: linear-gradient(90deg, $non-photo-blue-2 0%, $marian-blue 100%);
+  /* CSS Gradient */
+  --gradient-top: linear-gradient(0deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  --gradient-right: linear-gradient(90deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  --gradient-bottom: linear-gradient(180deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  --gradient-left: linear-gradient(270deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  --gradient-top-right: linear-gradient(45deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  --gradient-bottom-right: linear-gradient(135deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  --gradient-top-left: linear-gradient(225deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  --gradient-bottom-left: linear-gradient(315deg, #03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  --gradient-radial: radial-gradient(#03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+}

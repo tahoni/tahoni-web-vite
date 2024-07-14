@@ -1,6 +1,7 @@
-@forward "styles-colors";
-@forward "styles-fonts";
-@forward "styles-icons";
+@import "styles-colors";
+@import "styles-fonts";
+@import "styles-icons";
+@import "styles-overrides";
 @import "styles-theme";
 
 /* General */
@@ -8,9 +9,6 @@ html, body {
     font-family: $body-font-family;
     color: $text-color;
     background-color: $background-color;
-    width: 100%;
-    height: 97% !important;
-    padding: 0;
 }
 
 /* Headings */
