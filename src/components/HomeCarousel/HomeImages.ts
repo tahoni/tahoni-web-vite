@@ -3,6 +3,6 @@ import waterLilyImage from "./images/water-lilies.jpg";
 
 export class HomeImages {
     static waterLilyImage: ImageSourceDescription =
-        {source: waterLilyImage,
+        {image: waterLilyImage,
             description: 'Water lilies in a pond'};
 }

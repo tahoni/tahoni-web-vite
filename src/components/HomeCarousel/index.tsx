@@ -6,7 +6,7 @@ import {HomeImages} from "./HomeImages.ts";
 export const HomeCarousel = (): ReactElement => {
     const homeText: string = 'My Coding Journey';
     const homeSlides: ImageSourceDescription[] = [
-        {source: HomeImages.waterLilyImage.source,
+        {image: HomeImages.waterLilyImage.image,
             description: HomeImages.waterLilyImage.description,
             text: homeText},
     ];
