@@ -1,5 +1,5 @@
 import {ReactElement} from "react";
-import {ImageSourceDescription} from "@tahoni/tahoni-lib-react";
+import {ImageSourceDescription} from "@tahoni/tahoni-lib-react/dist/model/ImageSourceDescription";
 import {CoverCarousel} from "@tahoni/tahoni-lib-react";
 import {HomeImages} from "./HomeImages.ts";
 
