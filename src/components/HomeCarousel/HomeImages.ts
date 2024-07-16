@@ -1,4 +1,4 @@
-import {ImageSourceDescription} from "@tahoni/tahoni-lib-react/dist/model/ImageSourceDescription";
+import {ImageSourceDescription} from "@tahoni/tahoni-lib-react";
 import waterLilyImage from "./images/water-lilies.jpg";
 
 export class HomeImages {
