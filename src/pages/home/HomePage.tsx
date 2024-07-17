@@ -1,8 +1,8 @@
 import {ReactElement} from "react";
-import {HomeCarousel} from "../../components/HomeCarousel";
+import {HomeSlider} from "../../components/HomeSlider/HomeSlider.tsx";
 
 export const HomePage = (): ReactElement => {
     return (
-        <HomeCarousel/>
+        <HomeSlider/>
     )
 }

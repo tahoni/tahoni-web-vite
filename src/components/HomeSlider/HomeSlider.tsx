@@ -1,17 +1,16 @@
 import {ReactElement} from "react";
-import {ImageSourceDescription} from "@tahoni/tahoni-lib-react";
-import {CoverCarousel} from "@tahoni/tahoni-lib-react";
+import {CoverSlider, ImageWithSourceAndDescription} from "@tahoni/tahoni-lib-react";
 import {HomeImages} from "./HomeImages.ts";
 
-export const HomeCarousel = (): ReactElement => {
+export const HomeSlider = (): ReactElement => {
     const homeText: string = 'My Coding Journey';
-    const homeSlides: ImageSourceDescription[] = [
+    const homeSlides: ImageWithSourceAndDescription[] = [
         {image: HomeImages.waterLilyImage.image,
             description: HomeImages.waterLilyImage.description,
             text: homeText},
     ];
 
     return (
-        <CoverCarousel slides={homeSlides} infinite={false} autoPlay={false}/>
+        <CoverSlider slides={homeSlides} infinite={false} autoPlay={false}/>
     )
 }

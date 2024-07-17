@@ -1,7 +1,7 @@
 import {ReactElement} from "react";
 import {Outlet} from "react-router";
 import {Container} from "react-bootstrap";
-import styles from "./styles.module.scss";
+import styles from "./Layout.module.scss";
 
 export const Layout = (): ReactElement => {
     return (
