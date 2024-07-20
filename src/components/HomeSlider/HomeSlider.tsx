@@ -3,7 +3,7 @@ import {CoverSlider, ImageWithSourceAndDescription} from "@tahoni/tahoni-lib-rea
 import {HomeImages} from "./HomeImages.ts";
 
 export const HomeSlider = (): ReactElement => {
-    const homeText: string = 'My Coding Journey';
+    const homeText: string = 'Under Construction';
     const homeSlides: ImageWithSourceAndDescription[] = [
         {image: HomeImages.waterLilyImage.image,
             description: HomeImages.waterLilyImage.description,
