@@ -9,7 +9,7 @@ import './App.scss'
 
 function App(): ReactElement {
   return (
-      <div id="app" className="app">
+      <>
           <Routes>
               <Route element={<Layout/>}>
                   <Route path="/" element={<HomePage/>}/>
@@ -19,7 +19,7 @@ function App(): ReactElement {
           <Breakpoints/>
           <MaskOverlay mask={false}/>
           <Loader isLoading={false}/>
-      </div>
+      </>
   )
 }
 
