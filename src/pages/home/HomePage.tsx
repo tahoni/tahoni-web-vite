@@ -1,5 +1,5 @@
 import {ReactElement} from "react";
-import {HomeSlider} from "../../components/HomeSlider/HomeSlider.tsx";
+import {HomeSlider} from "../../components/HomeSlider";
 
 export const HomePage = (): ReactElement => {
     return (
