@@ -38,15 +38,15 @@ A high-level structure of the project.
 │   ├───manual
 │   └───screenshots
 ├───public
+│   └───assets
+│       └───images
+│           ├───icons
+│           └───logos
 └───src
     ├───assets
-    │   ├───images
-    │   │   └───logos
     │   └───stylesheets
     ├───components
-    │   └───common
     ├───layout
-    ├───model
     └───pages
 ```
 
