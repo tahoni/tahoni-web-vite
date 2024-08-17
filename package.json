@@ -3,7 +3,7 @@
   "author": "Leoni Lubbinge <tahoni@gmail.com>",
   "description": "Leoni Lubbinge's website",
   "private": true,
-  "version": "2.1.0",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tahoni/tahoni-lib-react": "^2.1.6",
+    "@tahoni/tahoni-lib-react": "^3.0.4",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
@@ -22,7 +22,9 @@
     "react-router-dom": "^6.24.1",
     "react-slick": "^0.30.2",
     "react-spinners": "^0.14.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "vite-plugin-dts": "^4.0.1",
+    "vite-plugin-lib-inject-css": "^2.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -36,6 +38,6 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "sass": "^1.77.7",
     "typescript": "^5.2.2",
-    "vite": "^5.3.1"
+    "vite": "^5.3.5"
   }
 }
