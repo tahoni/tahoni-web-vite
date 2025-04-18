@@ -6,7 +6,7 @@ export const HomeSlider = (): ReactElement => {
     const homeText: string = 'Under Construction';
     const homeSlides: ImageWithSourceAndDescription[] = [
         {image: HomeImages.waterLilyImage.image,
-            description: HomeImages.waterLilyImage.description,
+            name: HomeImages.waterLilyImage.name,
             text: homeText},
     ];
 
