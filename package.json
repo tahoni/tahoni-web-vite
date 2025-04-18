@@ -17,7 +17,7 @@
     "eslint-plugin-react": "^7.37.4",
     "react": "19.1.0",
     "react-bootstrap": "^2.10.9",
-    "react-dom": "19.0.0",
+    "react-dom": "19.1.0",
     "react-router": "^7.1.1",
     "react-router-dom": "^7.1.5",
     "react-slick": "^0.30.3",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/react": "19.0.12",
-    "@types/react-dom": "19.0.2",
+    "@types/react-dom": "19.1.2",
     "@types/react-google-recaptcha": "^2.1.9",
     "@types/sanitize-html": "^2.13.0",
     "@vitejs/plugin-react": "^4.3.4",
