@@ -22,7 +22,7 @@
     "react-router-dom": "^7.12.0",
     "react-slick": "^0.30.3",
     "react-spinners": "^0.15.0",
-    "sanitize-html": "^2.14.0",
+    "sanitize-html": "^2.17.4",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.22.4"
   },
