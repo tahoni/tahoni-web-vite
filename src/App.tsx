@@ -5,6 +5,7 @@ import {Loader} from "@tahoni/tahoni-lib-react/dist";
 import {Breakpoints} from "./layout/Breakpoints";
 import {Layout} from "./layout";
 import {HomePage} from "./pages/home";
+import '@tahoni/tahoni-lib-react/dist/index.css'
 import './App.scss'
 
 function App(): ReactElement {
